@@ -1,0 +1,10 @@
+# Data
+data/log/
+
+# Packaging
+.conda/ 
+
+# Misc
+**/.ipynb_checkpoints
+**/__pycache__/
+**/__init__.py
