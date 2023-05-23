@@ -20,7 +20,6 @@ def app():
     default_categories = ["Family", "Work", "Friends", "Shopping", "Ideas", "Health", "Other"]
 
     # setup the engine
-    #@st.cache_data
     @st.cache_resource
     def create_engine():
         return Engine(default_categories=default_categories)
@@ -41,13 +40,9 @@ def app():
                                 type='password',
                                 help='Get it on https://beta.openai.com/')
 
-    #engine.gpt3_parameters["engine"] = st.sidebar.text_input("GPT3 Engine", "text-davinci-003")
-    #engine.gpt3_parameters["temperature"] = st.sidebar.slider("GPT3 Temperature", value=0.1, min_value=0.0, max_value=1.0, step=0.1)
-
     selected_categories = st.sidebar.multiselect('Possible categories to consider when adding facts', 
                                                   all_categories,
                                                   engine.allowed_categories())
-
 
     engine.update_categories(selected_categories)
     engine.set_openai_api_key(token)
@@ -79,8 +74,6 @@ def app():
                                         engine.unique_people_in_database(),
                                         [])
 
-        
-        
         df_results = engine.query(query, 
                                   categories=categories_filter, 
                                   entry_types=entry_types_filter, 
@@ -103,18 +96,18 @@ def app():
             return engine.export_data_to_binary(df_results, file_type=file_type)
 
         if generate_csv_download:
-            st.download_button("Download this beautiful data!", 
+            st.download_button("Download This Data", 
                                         data=export_selected_data(file_type="csv"),
                                         file_name="out.csv",
                                         mime='text/csv')
         if generate_tsv_download:
-            st.download_button("Download this beautiful data!", 
+            st.download_button("Download This Data", 
                                         data=export_selected_data(file_type="tsv"),
                                         file_name="out.tsv",
                                         mime='text/tsv')
 
         if generate_excel_download:
-            st.download_button("Download this beautiful data!", 
+            st.download_button("Download This Data", 
                                         data=export_selected_data(file_type="excel"),
                                         file_name="out.xlsx",
                                         mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
