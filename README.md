@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">SLICEMATE</h3>
   <p align="center">
-       
+       Thoughts Transformed: Intelligent NLU Unleashed.
   </p>
 </div>
 
@@ -13,8 +13,11 @@
 
 <div align="center">
 
+No more forms or button navigation—simply type your mind, and watch as this intelligent application classifies, segments, and archives everything from shopping lists to random ideas.
+  
 </div>
 
+The purpose entails in the development of a sophisticated Natural Language Understanding (NLU) tool that aims to facilitate the swift extraction, storage, and retrieval of diverse personal information, encompassing shopping or to-do lists, phone numbers, email addresses, names, trivia, reminders, random ideas, and more. The impetus behind this undertaking lies in recognizing the challenges individuals encounter when seeking the appropriate form or navigating through various buttons for each information category. By leveraging this application, users can effortlessly articulate their thoughts via typing, secure in the knowledge that the tool adeptly classifies, segments, and archives the provided data.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -23,7 +26,7 @@
 ## Summary
 
 
-You can view two recorded screen GIFs demonstrating the functionality of the Streamlit apps below. The GIF on the left demonstrates the prediction app, highlighting the map-based selection, prediction results, and data storage to the feature store. Other GIF on the right showcases the user interface and features of the monitoring app, including real-time drift calculation and insights. Users can monitor and analyze the performance of the prediction model and make informed decisions based on the displayed information.
+
 
 ADD FACTS             |  SEARCH FACTS
 :-------------------------:|:-------------------------:
