@@ -25,12 +25,20 @@ The purpose entails in the development of a sophisticated Natural Language Under
 <!-- PROJECT SUMMARY -->
 ## Summary
 
+Slicemate excels in performing two primary tasks:
 
+*  Gathering facts from Natural Language and adding them to a database: GPT-3 can convert spoken or written sentences into well-organized pieces of information, which can then be stored in a database.
+*  Searching the database using keywords: GPT-3 can help improve searches by including synonyms and related terms along with the original keywords. This makes the search results more comprehensive and accurate.
 
+Included in the resources are two separate notebooks designed to facilitate prompt engineering studies for <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_fact_extraction.ipynb'>extracting facts</a> and <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_querying_facts.ipynb'>searching facts</a>, respectively. These notebooks provide a structured environment for exploring and refining prompt engineering techniques specific to each task.
 
-ADD FACTS             |  SEARCH FACTS
+Within the project files, you will find the <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/src/app.py'>app.py</a> file, which serves as the Streamlit application. This file contains the necessary code to create the user interface and handle the interactions with the application. Additionally, the <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/src/engine.py'>engine.py</a> file houses the main logic and functionalities of the application, providing the underlying implementation and data processing capabilities.
+
+Displayed below are the accompanying screenshots of the Streamlit application, which provide a visual representation of the user interface for both extracting factual information and conducting fact-based searches.
+
+EXTRACT FACTS             |  SEARCH FACTS
 :-------------------------:|:-------------------------:
-![Add Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/assets/add_facts.png) | ![Search Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/assets/search_facts.png)
+![Extract Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/assets/add_facts.png) | ![Search Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/assets/search_facts.png)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -67,5 +75,10 @@ The additional libraries utilized, along with the precise versions of each libra
 <!-- Final Notes -->
 ## Final Notes
 
+Please make sure that you have installed all the necessary dependencies and libraries. You can refer to the requirements.txt file to find a complete list of the required libraries and their versions. The codebase relies on Python version 3.8.16.
+
+Prior to proceeding, please ensure that you possess the OpenAI API key. This key is essential for accessing and utilizing the OpenAI API services.
+
+The codebase has been meticulously documented, incorporating comprehensive docstrings and comments. Please review these annotations, as they provide valuable insights into the functionality and operation of the code.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
