@@ -25,6 +25,12 @@ The purpose entails in the development of a sophisticated Natural Language Under
 <!-- PROJECT SUMMARY -->
 ## Summary
 
+<div align="center">
+  
+  [<a href="https://kaustubhbhavsar-gpt-information-extractor-srcapp-vp59gs.streamlit.app/">Click here to launch Streamlit application</a>]
+
+</div>
+
 Slicemate excels in performing two primary tasks using GPT-3.5-Turbo:
 
 *  Gathering facts from Natural Language and adding them to a database: GPT can convert written sentences into well-organized pieces of information, which can then be stored in a database.
