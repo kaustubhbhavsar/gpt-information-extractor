@@ -31,7 +31,7 @@ The purpose entails in the development of a sophisticated Natural Language Under
 
 </div>
 
-Slicemate excels in performing two primary tasks using GPT-3.5-Turbo:
+Slicemate excels in performing two primary tasks using GPT-3.5 (text-davinci-003):
 
 *  Gathering facts from Natural Language and adding them to a database: GPT converts the written sentences into well-organized pieces of information, which are then stored in a database.
 *  Searching the database using keywords: GPT also helps improve searches by including synonyms and related terms along with the original keywords. This makes the search results more comprehensive and accurate.
@@ -79,7 +79,7 @@ EXTRACT FACTS             |  SEARCH FACTS
 ## Tools and Libraries
 
 *   Language: <b>Python</b>
-*   GPT (3.5-Turbo): <b>OpenAI</b>
+*   GPT (text-davinci-003): <b>OpenAI</b>
 *   Web App: <b>Streamlit</b>
 *   Other Prominent Libraries: <b>Pandas</b>
 
