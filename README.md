@@ -33,7 +33,7 @@ The purpose entails in the development of a sophisticated Natural Language Under
 
 Slicemate excels in performing two primary tasks using GPT-3.5-Turbo:
 
-*  Gathering facts from Natural Language and adding them to a database: GPT can convert written sentences into well-organized pieces of information, which can then be stored in a database.
+*  Gathering facts from Natural Language and adding them to a database: GPT converts the written sentences into well-organized pieces of information, which are then stored in a database.
 *  Searching the database using keywords: GPT also helps improve searches by including synonyms and related terms along with the original keywords. This makes the search results more comprehensive and accurate.
 
 As mentioned above, the goal is to obtain data and enable its discoverability. The data extracted will include the following:
