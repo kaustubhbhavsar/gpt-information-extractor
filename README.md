@@ -25,9 +25,9 @@ The purpose entails in the development of a sophisticated Natural Language Under
 <!-- PROJECT SUMMARY -->
 ## Summary
 
-Slicemate excels in performing two primary tasks:
+Slicemate excels in performing two primary tasks using GPT-3.5-Turbo:
 
-*  Gathering facts from Natural Language and adding them to a database: GPT-3 can convert spoken or written sentences into well-organized pieces of information, which can then be stored in a database.
+*  Gathering facts from Natural Language and adding them to a database: GPT can convert written sentences into well-organized pieces of information, which can then be stored in a database.
 *  Searching the database using keywords: GPT-3 can help improve searches by including synonyms and related terms along with the original keywords. This makes the search results more comprehensive and accurate.
 
 Included in the resources are two separate notebooks designed to facilitate prompt engineering studies for <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_fact_extraction.ipynb'>extracting facts</a> and <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_querying_facts.ipynb'>searching facts</a>, respectively. These notebooks provide a structured environment for exploring and refining prompt engineering techniques specific to each task.
