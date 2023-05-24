@@ -64,9 +64,8 @@ EXTRACT FACTS             |  SEARCH FACTS
 ## Directory Structure
 ```
 ├── assets/                                        # assets such as images 
-├── config/                                        # configuration files 
-├── data/                                          # data files
-├── notebooks/                                     # notebooks
+├── config/                                        # configuration file
+├── notebooks/                                     # study notebooks
 ├── src/                                           # main code files
     └── app.py                                     # streamlit app
     └── engine.py                                  # app logic
