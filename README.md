@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">SLICEMATE</h3>
   <p align="center">
-       Thoughts Transformed: Intelligent NLU Unleashed.
+       GPT-driven Data Exploration: Unveiling Insights and Enabling Discoverability
   </p>
 </div>
 
@@ -28,7 +28,17 @@ The purpose entails in the development of a sophisticated Natural Language Under
 Slicemate excels in performing two primary tasks using GPT-3.5-Turbo:
 
 *  Gathering facts from Natural Language and adding them to a database: GPT can convert written sentences into well-organized pieces of information, which can then be stored in a database.
-*  Searching the database using keywords: GPT-3 can help improve searches by including synonyms and related terms along with the original keywords. This makes the search results more comprehensive and accurate.
+*  Searching the database using keywords: GPT also helps improve searches by including synonyms and related terms along with the original keywords. This makes the search results more comprehensive and accurate.
+
+As mentioned above, the goal is to obtain data and enable its discoverability. The data extracted will include the following:
+
+- <b>Category</b>: The overall classification to which the data pertains (e.g., "Reminder", "Health", "Shopping").
+- <b>Type</b>: The inherent characteristics of the stored data (e.g., emails, phone numbers, prices, reminders).
+- <b>People</b>: Names of people or entities involved in the extraction.
+- <b>Key</b>: The primary entity to which a value is assigned. This field allows for more flexibility compared to the preceding ones.
+- <b>Value</b>: The specific entry associated with the key. It also permits greater flexibility compared to the other fields.
+
+Please note that the categories are dynamic in nature and can be modified and upd ated while adding facts to the database.
 
 Included in the resources are two separate notebooks designed to facilitate prompt engineering studies for <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_fact_extraction.ipynb'>extracting facts</a> and <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_querying_facts.ipynb'>searching facts</a>, respectively. These notebooks provide a structured environment for exploring and refining prompt engineering techniques specific to each task.
 
@@ -64,7 +74,7 @@ EXTRACT FACTS             |  SEARCH FACTS
 ## Tools and Libraries
 
 *   Language: <b>Python</b>
-*   GPT: <b>OpenAI</b>
+*   GPT (3.5-Turbo): <b>OpenAI</b>
 *   Web App: <b>Streamlit</b>
 *   Other Prominent Libraries: <b>Pandas</b>
 
