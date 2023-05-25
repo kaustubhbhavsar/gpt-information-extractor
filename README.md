@@ -44,7 +44,7 @@ As mentioned above, the goal is to obtain data and enable its discoverability. T
 - <b>Key</b>: The primary entity to which a value is assigned. This field allows for more flexibility compared to the preceding ones.
 - <b>Value</b>: The specific entry associated with the key. It also permits greater flexibility compared to the other fields.
 
-Please note that the categories are dynamic in nature and can be modified and upd ated while adding facts to the database.
+Please note that the categories are dynamic in nature and can be modified and updated while adding facts to the database.
 
 Included in the resources are two separate notebooks designed to facilitate prompt engineering studies for <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_fact_extraction.ipynb'>extracting facts</a> and <a href='https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/notebooks/prompt_engineering_querying_facts.ipynb'>searching facts</a>, respectively. These notebooks provide a structured environment for exploring and refining prompt engineering techniques specific to each task.
 
@@ -79,7 +79,7 @@ EXTRACT FACTS             |  SEARCH FACTS
 ## Tools and Libraries
 
 *   Language: <b>Python</b>
-*   GPT (text-davinci-003): <b>OpenAI</b>
+*   GPT-3.5 (text-davinci-003): <b>OpenAI</b>
 *   Web App: <b>Streamlit</b>
 *   Other Prominent Libraries: <b>Pandas</b>
 
