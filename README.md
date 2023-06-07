@@ -96,4 +96,6 @@ Prior to proceeding, please ensure that you possess the OpenAI API key. This key
 
 The codebase has been meticulously documented, incorporating comprehensive docstrings and comments. Please review these annotations, as they provide valuable insights into the functionality and operation of the code.
 
+Lastly, I would like to extend my appreciation to <a href='https://www.paulosalem.com/'>Paulo Salem</a> for providing the initial proof of concept (POC) that served as the foundation for this application. Through further development and enhancements, including optimizations, I was able to create a more robust and advanced version.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
