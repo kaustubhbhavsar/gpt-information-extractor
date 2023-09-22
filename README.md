@@ -54,7 +54,7 @@ Displayed below are the accompanying screenshots of the Streamlit application, w
 
 EXTRACT FACTS             |  SEARCH FACTS
 :-------------------------:|:-------------------------:
-![Extract Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/assets/add_facts.png) | ![Search Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/blob/main/assets/search_facts.png)
+![Extract Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/assets/add_facts.png) | ![Search Facts](https://github.com/kaustubhbhavsar/gpt-information-extractor/assets/search_facts.png)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
