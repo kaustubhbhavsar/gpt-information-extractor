@@ -26,8 +26,7 @@ The purpose entails in the development of a sophisticated Natural Language Under
 ## Summary
 
 <div align="center">
-  
-  [<a href="https://kaustubhbhavsar-gpt-information-extractor-srcapp-vp59gs.streamlit.app/">Click here to launch Streamlit application</a>]
+  [<a href="https://gpt-information-extractor-bmtn83w9tfrrajmeqckop3.streamlit.app/">Click here to launch Streamlit application</a>]
 
 </div>
 
